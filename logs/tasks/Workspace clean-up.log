@@ -1,0 +1,6 @@
+Started at Thu Jan 30 16:30:47 UTC 2025
+Checking list
+Deleting /home/ubuntu/jenkins/workspace/list on ec2-slave
+Checking list2
+Deleting /var/lib/jenkins/workspace/list2 on Jenkins
+Finished at Thu Jan 30 16:30:47 UTC 2025. 29ms

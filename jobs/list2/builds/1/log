@@ -1,0 +1,46 @@
+Started by user [8mha:////4DX5fWFPtCu2t9jB9F5c8zUbAw5An4nHOwZv+NSARIOBAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgZ+/dLi1CL95IzMvLzMlIxMAOFBvuDEAAAA[0mchinnidhi
+Running as SYSTEM
+Building remotely on [8mha:////4BjxdnCgBt4GceYupCoKWeTuSTuV7F/DHL8amCwj2WmBAAAAnx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgZh/eT83ILSktQi/dRkI93inMSyVABNoSWqyAAAAA==[0mec2-slave (slave1) in workspace /home/ubuntu/jenkins/workspace/list2
+The recommended git tool is: NONE
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/chinnidhi/scripts.git
+ > git init /home/ubuntu/jenkins/workspace/list2 # timeout=10
+Fetching upstream changes from https://github.com/chinnidhi/scripts.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.43.0'
+ > git fetch --tags --force --progress -- https://github.com/chinnidhi/scripts.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/chinnidhi/scripts.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision c88ca46f20be1a8dbd64b6e33173061519967be7 (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f c88ca46f20be1a8dbd64b6e33173061519967be7 # timeout=10
+Commit message: "Create abc.sh"
+First time build. Skipping changelog.
+[list2] $ /bin/sh -xe /tmp/jenkins4842521424875878262.sh
++ bash abc.sh
+the files list is
+total 80
+-rw-rw-r-- 1 ubuntu ubuntu 239 Jan 30 16:22 type.sh
+-rw-rw-r-- 1 ubuntu ubuntu 312 Jan 30 16:22 test4.sh
+-rw-rw-r-- 1 ubuntu ubuntu 183 Jan 30 16:22 test1.sh
+-rw-rw-r-- 1 ubuntu ubuntu 178 Jan 30 16:22 sum.sh
+-rw-rw-r-- 1 ubuntu ubuntu 163 Jan 30 16:22 reverse.sh
+-rw-rw-r-- 1 ubuntu ubuntu 233 Jan 30 16:22 pattern1.sh
+-rw-rw-r-- 1 ubuntu ubuntu 134 Jan 30 16:22 pattern.sh
+-rw-rw-r-- 1 ubuntu ubuntu  72 Jan 30 16:22 list.sh
+-rw-rw-r-- 1 ubuntu ubuntu 146 Jan 30 16:22 greater.sh
+-rw-rw-r-- 1 ubuntu ubuntu 304 Jan 30 16:22 great3.sh
+-rw-rw-r-- 1 ubuntu ubuntu 166 Jan 30 16:22 great.sh
+-rw-rw-r-- 1 ubuntu ubuntu  42 Jan 30 16:22 forloop.sh
+-rw-rw-r-- 1 ubuntu ubuntu  57 Jan 30 16:22 file3.sh
+-rw-rw-r-- 1 ubuntu ubuntu 169 Jan 30 16:22 file2.sh
+-rw-rw-r-- 1 ubuntu ubuntu 194 Jan 30 16:22 factorial.sh
+-rw-rw-r-- 1 ubuntu ubuntu 210 Jan 30 16:22 diskuse.sh
+-rw-rw-r-- 1 ubuntu ubuntu  74 Jan 30 16:22 clean.sh
+-rw-rw-r-- 1 ubuntu ubuntu 879 Jan 30 16:22 case.sh
+-rw-rw-r-- 1 ubuntu ubuntu  45 Jan 30 16:22 abc.sh
+-rw-rw-r-- 1 ubuntu ubuntu  22 Jan 30 16:22 README.md
+Finished: SUCCESS

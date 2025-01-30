@@ -1,0 +1,46 @@
+Started by user [8mha:////4DX5fWFPtCu2t9jB9F5c8zUbAw5An4nHOwZv+NSARIOBAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgZ+/dLi1CL95IzMvLzMlIxMAOFBvuDEAAAA[0mchinnidhi
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/list
+The recommended git tool is: NONE
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/chinnidhi/scripts.git
+ > git init /var/lib/jenkins/workspace/list # timeout=10
+Fetching upstream changes from https://github.com/chinnidhi/scripts.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.43.0'
+ > git fetch --tags --force --progress -- https://github.com/chinnidhi/scripts.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/chinnidhi/scripts.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision c88ca46f20be1a8dbd64b6e33173061519967be7 (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f c88ca46f20be1a8dbd64b6e33173061519967be7 # timeout=10
+Commit message: "Create abc.sh"
+First time build. Skipping changelog.
+[list] $ /bin/sh -xe /tmp/jenkins1567499060708518402.sh
++ bash abc.sh
+the files list is
+total 80
+-rw-r--r-- 1 jenkins jenkins  72 Jan 30 15:40 list.sh
+-rw-r--r-- 1 jenkins jenkins 146 Jan 30 15:40 greater.sh
+-rw-r--r-- 1 jenkins jenkins 304 Jan 30 15:40 great3.sh
+-rw-r--r-- 1 jenkins jenkins 166 Jan 30 15:40 great.sh
+-rw-r--r-- 1 jenkins jenkins  42 Jan 30 15:40 forloop.sh
+-rw-r--r-- 1 jenkins jenkins  57 Jan 30 15:40 file3.sh
+-rw-r--r-- 1 jenkins jenkins 169 Jan 30 15:40 file2.sh
+-rw-r--r-- 1 jenkins jenkins 194 Jan 30 15:40 factorial.sh
+-rw-r--r-- 1 jenkins jenkins 210 Jan 30 15:40 diskuse.sh
+-rw-r--r-- 1 jenkins jenkins  74 Jan 30 15:40 clean.sh
+-rw-r--r-- 1 jenkins jenkins 879 Jan 30 15:40 case.sh
+-rw-r--r-- 1 jenkins jenkins  45 Jan 30 15:40 abc.sh
+-rw-r--r-- 1 jenkins jenkins  22 Jan 30 15:40 README.md
+-rw-r--r-- 1 jenkins jenkins 239 Jan 30 15:40 type.sh
+-rw-r--r-- 1 jenkins jenkins 312 Jan 30 15:40 test4.sh
+-rw-r--r-- 1 jenkins jenkins 183 Jan 30 15:40 test1.sh
+-rw-r--r-- 1 jenkins jenkins 178 Jan 30 15:40 sum.sh
+-rw-r--r-- 1 jenkins jenkins 163 Jan 30 15:40 reverse.sh
+-rw-r--r-- 1 jenkins jenkins 233 Jan 30 15:40 pattern1.sh
+-rw-r--r-- 1 jenkins jenkins 134 Jan 30 15:40 pattern.sh
+Finished: SUCCESS
